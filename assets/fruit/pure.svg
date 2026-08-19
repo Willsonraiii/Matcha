@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Matcha bowl and whisk">
+  <rect width="200" height="200" fill="#ede8dc"/>
+  <defs>
+    <radialGradient id="p1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#8fd15a"/>
+      <stop offset="100%" stop-color="#3f7a28"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f1e4"/>
+      <stop offset="100%" stop-color="#d9cbb0"/>
+    </linearGradient>
+    <linearGradient id="bamboo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c4a15a"/>
+      <stop offset="100%" stop-color="#8a6a32"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="168" rx="48" ry="8" fill="#c9c2b0" opacity=".5"/>
+  <ellipse cx="100" cy="118" rx="52" ry="16" fill="#cfc3a8"/>
+  <path d="M48 118c4 32 24 50 52 50s48-18 52-50" fill="url(#bowl)"/>
+  <ellipse cx="100" cy="118" rx="46" ry="13" fill="#efe6d2"/>
+  <ellipse cx="100" cy="118" rx="38" ry="10" fill="url(#p1)"/>
+  <ellipse cx="88" cy="116" rx="8" ry="4" fill="#c6ef8a" opacity=".45"/>
+  <g transform="rotate(-28 128 70)">
+    <rect x="120" y="28" width="10" height="58" rx="3" fill="url(#bamboo)"/>
+    <rect x="119" y="48" width="12" height="3" fill="#6e5424" opacity=".35"/>
+    <rect x="119" y="62" width="12" height="3" fill="#6e5424" opacity=".35"/>
+    <g fill="none" stroke="#8a6a32" stroke-width="1.4" stroke-linecap="round">
+      <path d="M116 86c-6 18-4 28 0 34"/>
+      <path d="M120 86c-3 18-1 28 2 34"/>
+      <path d="M125 86c0 20 1 28 4 34"/>
+      <path d="M130 86c3 18 4 28 8 34"/>
+      <path d="M134 86c6 16 8 26 12 32"/>
+    </g>
+  </g>
+</svg>

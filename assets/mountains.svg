@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="skyfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c150c" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#0c150c" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#071007" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a4a1c"/>
+      <stop offset="100%" stop-color="#16280f"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b3312"/>
+      <stop offset="100%" stop-color="#0e1c0a"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#101c0c"/>
+      <stop offset="100%" stop-color="#070d06"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#far)" d="M0 236L70 200 140 224 230 148 310 190 410 110 500 168 610 84 720 150 820 96 930 170 1040 88 1150 164 1248 112 1340 176 1440 130V420H0Z"/>
+  <path fill="url(#mid)" d="M0 278L110 228 200 268 310 198 430 252 540 186 670 246 790 188 910 250 1040 196 1170 258 1288 214 1440 268V420H0Z"/>
+  <path fill="url(#near)" d="M0 328L150 274 260 318 400 258 560 312 720 268 880 322 1040 276 1200 324 1320 292 1440 330V420H0Z"/>
+  <rect width="1440" height="420" fill="url(#skyfade)"/>
+</svg>
